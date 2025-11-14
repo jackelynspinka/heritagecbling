@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Heritage Cabling Commercial Low Voltage | Dallas, TX</title>
+<meta name="description" content="Structured cabling, fiber optic installation, and low voltage solutions for businesses across Dallas. Call (623) 505-8375 for reliable network infrastructure services.">
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.6;
+  }
+  
+  header, footer {
+    background-color: #1d1d1b;
+    color: #fff;
+    padding: 20px;
+    font-weight: bold;
+  }
+  
+  header img, footer img {
+    width: 120px;
+    height: auto;
+  }
+  
+  a {
+    color: #d6b10b;
+    text-decoration: none;
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+  }
+  
+  /* Header and Footer Layout */
+  .header-container, .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .footer-contact {
+    text-align: right;
+  }
+  
+  .footer-contact p {
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #444;
+    width: 100%;
+  }
+
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), #2f2f2d;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    line-height: 1.2;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin: 0 auto 30px;
+    max-width: 700px;
+    line-height: 1.6;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #d6b10b;
+    color: #000;
+    padding: 15px 30px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e6c135;
+  }
+
+  /* Section Styles */
+  .section {
+    padding: 80px 20px;
+    max-width: 1100px;
+    margin: auto;
+  }
+  
+  .section h2 {
+    color: #1d1d1b;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+  }
+  
+  .section-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 40px;
+    line-height: 1.6;
+    font-size: 1.1em;
+    color: #555;
+  }
+
+  /* Services Section */
+  .services-container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .services h2 {
+    position: relative;
+    padding-bottom: 15px;
+  }
+  
+  .services h2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: #1d1d1b;
+  }
+  
+  .services-description {
+    text-align: center;
+    line-height: 1.7;
+    font-size: 1.1em;
+    margin: 0 auto 50px;
+    max-width: 900px;
+    color: #555;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 100%;
+  }
+  
+  .service-card-black {
+    background-color: #1d1d1b;
+    color: #fff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .service-card-black:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #ff6b35, #f7931e);
+  }
+  
+  .service-card-black:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  }
+  
+  .service-card-black h3 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    line-height: 1.4;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .service-card-black p {
+    color: #fff;
+    line-height: 1.6;
+    opacity: 0.9;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Citations Section */
+  .citations {
+    background-color: #f4f4f4;
+  }
+  
+  .citations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .citation-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8a4522;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    min-height: 60px;
+  }
+  
+  .citation-link:hover {
+    background-color: #6a3419;
+    transform: translateY(-3px);
+  }
+
+  /* Blog Section */
+  .blogs-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .blogs-description {
+    text-align: center;
+    line-height: 1.7;
+    font-size: 1.1em;
+    margin: 0 auto 50px;
+    max-width: 900px;
+    color: #555;
+  }
+  
+  .blogs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  
+  .blog-card {
+    background-color: #8a4522;
+    color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  }
+  
+  .blog-card h3 {
+    color: #fff;
+    margin-bottom: 15px;
+    font-size: 1.3em;
+    line-height: 1.4;
+  }
+  
+  .blog-card p {
+    color: #fff;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    opacity: 0.9;
+  }
+  
+  .blog-link {
+    display: inline-block;
+    background-color: #fff;
+    color: #8a4522;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .blog-link:hover {
+    background-color: #f0f0f0;
+  }
+
+  /* Contact Section */
+  .contact {
+    background-color: #f4f4f4;
+  }
+  
+  .contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-description {
+    text-align: center;
+    line-height: 1.7;
+    font-size: 1.1em;
+    margin: 0 auto 40px;
+    max-width: 900px;
+  }
+  
+  .contact-divider {
+    height: 2px;
+    background-color: #8a4522;
+    width: 100px;
+    margin: 40px auto;
+  }
+  
+  .contact-info {
+    text-align: center;
+  }
+  
+  .contact-info h3 {
+    color: #1d1d1b;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+  }
+  
+  .contact-info p {
+    margin: 12px 0;
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  .contact-info a {
+    color: #8a4522;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact-info a:hover {
+    color: #6a3419;
+    text-decoration: underline;
+  }
+
+  /* Mobile Responsive Styles */
+  @media (max-width: 1024px) {
+    .services-grid,
+    .blogs-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header-container, 
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .footer-contact {
+      text-align: center;
+      margin-top: 15px;
+    }
+    
+    .hero {
+      padding: 80px 20px;
+    }
+    
+    .hero h1 {
+      font-size: 2.2em;
+    }
+    
+    .hero p {
+      font-size: 1.1em;
+    }
+    
+    .section h2 {
+      font-size: 2em;
+    }
+    
+    .services-grid,
+    .blogs-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .service-card-black {
+      padding: 30px 25px;
+    }
+    
+    .citations-grid {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+    }
+    
+    .citation-link {
+      padding: 12px 15px;
+      font-size: 0.9em;
+      min-height: 50px;
+    }
+    
+    .blog-card {
+      padding: 25px 20px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .hero h1 {
+      font-size: 1.8em;
+    }
+    
+    .hero p {
+      font-size: 1em;
+    }
+    
+    .section {
+      padding: 60px 15px;
+    }
+    
+    .section h2 {
+      font-size: 1.8em;
+    }
+    
+    .cta-button {
+      padding: 12px 25px;
+      font-size: 1em;
+    }
+    
+    .services-grid,
+    .blogs-grid {
+      gap: 20px;
+    }
+    
+    .citations-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-container">
+    <a href="https://heritagecabling.com/" target="_blank">
+      <img src="https://heritagecabling.com/wp-content/uploads/2025/02/Logo-300x300.png" alt="Heritage Cabling Logo">
+    </a>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Commercial Low Voltage & Structured Cabling Experts in Dallas</h1>
+  <p>Heritage Cabling delivers professional structured cabling infrastructure, fiber optic installation, and commercial low voltage solutions throughout Dallas, TX. Our certified technicians specialize in network cabling systems, fiber splicing, and comprehensive low voltage wiring for businesses seeking reliable connectivity.</p>
+  <a href="tel:+16235058375" class="cta-button">Call Now: (623) 505-8375</a>
+</section>
+
+<section class="section services">
+  <div class="services-container">
+    <h2>Our Professional Services</h2>
+    <p class="services-description">Heritage Cabling provides comprehensive low voltage and structured cabling services for commercial clients across Dallas-Fort Worth. Our expertise includes fiber optic cable installation, network infrastructure design, and voice-data cabling systems that meet TIA-568 standards. We deliver reliable solutions for office buildings, data centers, and commercial facilities requiring robust connectivity. Our services encompass everything from initial cabling design to final testing and certification, ensuring your business network operates at peak performance with minimal downtime and future-proof scalability.</p>
+    
+    <div class="services-grid">
+      <div class="service-card-black">
+        <h3>Structured Cabling</h3>
+        <p>Design and installation of structured cabling systems built for long-term reliability, including Cat6a, Cat7, and fiber backbones that keep your business connected.</p>
+      </div>
+      
+      <div class="service-card-black">
+        <h3>Commercial Fiber Optic Cabling</h3>
+        <p>Single-mode and multi-mode fiber installations with precision splicing, testing, and certification to ensure peak performance across your entire network.</p>
+      </div>
+      
+      <div class="service-card-black">
+        <h3>Fiber Splicing & Testing</h3>
+        <p>Professional fusion splicing, OTDR testing, and signal verification for both new and existing fiber networks to maintain quality and uptime.</p>
+      </div>
+      
+      <div class="service-card-black">
+        <h3>Cabling Infrastructure</h3>
+        <p>End-to-end low voltage infrastructure design, cable management, and rack installation following BICSI and TIA-568 standards.</p>
+      </div>
+      
+      <div class="service-card-black">
+        <h3>Low Voltage Systems</h3>
+        <p>Complete low voltage wiring for security cameras, access control, Wi-Fi access points, and PoE-enabled devices to support modern commercial spaces.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section citations">
+  <h2>Verified Listings and Profiles</h2>
+  <p class="section-description">Heritage Cabling maintains an extensive online presence across major business directories, industry platforms, and local Dallas listings. Our verified profiles provide customers with reliable contact information, service details, and authentic reviews from satisfied commercial clients.</p>
+  
+  <div class="citations-grid">
+    <a href="https://us.enrollbusiness.com/BusinessProfile/7190512/Heritage%20Cabling%20Commercial%20Low%20Voltage%20(Dallas,%20TX)" target="_blank" class="citation-link">EnrollBusiness</a>
+    <a href="https://bizidex.com/en/heritage-cabling-commercial-low-voltage-dallas-tx-electrical-706790" target="_blank" class="citation-link">Bizidex</a>
+    <a href="https://www.classifiedads.com/home_services_stores/wb76n08qp3dd9" target="_blank" class="citation-link">ClassifiedAds</a>
+    <a href="https://www.insertbiz.com/listing/4033-w-lawther-dr-dallas-tx-75214-heritage-cabling-commercial-low-voltage-dallas-tx/" target="_blank" class="citation-link">InsertBiz</a>
+    <a href="https://www.bunity.com/-acd21f5a-74c0-4efd-ac9c-0b8a359289ca" target="_blank" class="citation-link">Bunity</a>
+    <a href="https://www.homeservice.contractors/united-states/dallas/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">HomeService Contractors</a>
+    <a href="https://www.dealerbaba.com/suppliers/electronics-electrical/heritage-cabling-commercial-low-voltage-dallas-tx.html" target="_blank" class="citation-link">DealerBaba</a>
+    <a href="https://www.freelistingusa.com/listings/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">FreeListingUSA</a>
+    <a href="https://www.topgoogle.com/listing/heritage-cabling-commercial-low-voltage-dallas-tx/" target="_blank" class="citation-link">TopGoogle</a>
+    <a href="https://www.nextbizthing.com/united-states/dallas/construction-20-contractors/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">NextBizThing</a>
+    <a href="https://vymaps.com/US/Heritage-Cabling-Commercial-Low-Voltage-Dallas-TX-VN90428/" target="_blank" class="citation-link">Vymaps</a>
+    <a href="https://www.a-zbusinessfinder.com/business-directory/Heritage-Cabling-Commercial-Low-Voltage-Dallas-T-Dallas-Texas-USA/34267792/" target="_blank" class="citation-link">A-Z Business Finder</a>
+    <a href="https://www.finduslocal.com/electrical-contractor/texas/dallas/heritage-cabling-commercial-low-voltage-dallas-tx_4033-w-lawther-dr-dallas-tx-75214/" target="_blank" class="citation-link">FindUsLocal</a>
+    <a href="https://world-business-zone.com/listing/heritage-cabling-commercial-low-voltage-dallas-tx/" target="_blank" class="citation-link">WorldBusinessZone</a>
+    <a href="https://www.storeboard.com/heritagecablingcommerciallowvoltagedallastx" target="_blank" class="citation-link">Storeboard</a>
+    <a href="https://www.ehbact.com/dallas-tx/construction-contractors/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">EHBAct</a>
+    <a href="https://www.expatriates.com/cls/59411214.html?1745301343" target="_blank" class="citation-link">Expatriates</a>
+    <a href="https://penzu.com/p/c5bf39aff145732b" target="_blank" class="citation-link">Penzu</a>
+    <a href="https://www.scribblemaps.com/maps/view/Heritage-Cabling-Commercial-Low-Voltage-Dallas-TX/qIC7wMaCLG" target="_blank" class="citation-link">ScribbleMaps</a>
+    <a href="https://pastelink.net/0kw7aeot" target="_blank" class="citation-link">Pastelink</a>
+    <a href="https://issuu.com/heritagecabling" target="_blank" class="citation-link">Issuu</a>
+    <a href="https://www.onestopb2b.com/business-page.php?fid=CCFKLP" target="_blank" class="citation-link">OneStopB2B</a>
+    <a href="https://weboworld.com/listing/texas/dallas/Electricians/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">WeboWorld</a>
+    <a href="https://www.blinx.biz/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">Blinx</a>
+    <a href="https://www.brownbook.net/business/53755091/heritage-cabling-commercial-low-voltage-dallas-tx/" target="_blank" class="citation-link">Brownbook</a>
+    <a href="https://ebusinesspages.com/Heritage-Cabling-Commercial-Low-Voltage-(Dallas%2c-TX)_epshq.co?PostReturn=0" target="_blank" class="citation-link">EBusinessPages</a>
+    <a href="https://www.1stopstartup.com/dallas-tx/home-services/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">1StopStartup</a>
+    <a href="https://mapfling.com/qjukxyc" target="_blank" class="citation-link">MapFling</a>
+    <a href="https://www.b2bco.com/heritagecabling" target="_blank" class="citation-link">B2BCo</a>
+    <a href="https://www.bizthistown.com/united-states/dallas/home-improvement-maintenance/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">BizThisTown</a>
+    <a href="http://www.contractorsandsuppliers.com/dallas-tx/residential-contractors/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">ContractorsAndSuppliers</a>
+    <a href="http://www.todo15.com/dallas-tx/sample-category/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">Todo15</a>
+    <a href="http://www.moorbusinessdirect.com/dallas-tx/home-services/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">MoorBusinessDirect</a>
+    <a href="https://www.sold.com.au/dallas-tx/sample-category/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">Sold.com.au</a>
+    <a href="https://www.ourblackeconomy.com/dallas-tx/home-services/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">OurBlackEconomy</a>
+    <a href="https://www.buildzoom.com/contractor/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">BuildZoom</a>
+    <a href="http://www.northlandhq.com/directory/listingdisplay.aspx?lid=70748" target="_blank" class="citation-link">NorthlandHQ</a>
+    <a href="https://www.earthmom.org/dallas-tx/electrician/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">Earthmom</a>
+    <a href="https://www.muslimyellowpages.com/united-states/dallas/electricians/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">MuslimYellowPages</a>
+    <a href="https://www.trysmallbiz.com/united-states/dallas/home-services/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">TrySmallBiz</a>
+    <a href="https://list.ly/list/C3KF-heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">List.ly</a>
+    <a href="https://www.dallasonline.us/profile/heritage-cabling-commercial-low-voltage" target="_blank" class="citation-link">DallasOnline</a>
+    <a href="https://www.bark.com/en/us/company/heritage-cabling-commercial-low-voltage-dallas-tx/Bz6BMz/" target="_blank" class="citation-link">Bark</a>
+    <a href="http://www.officiallyiconic.com/dallas-tx/home-services/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">OfficiallyIconic</a>
+    <a href="https://www.meetyourmarkets.com/dallas-tx/heritage-cabling-commercial-low-voltage-dallas-tx" target="_blank" class="citation-link">MeetYourMarkets</a>
+    <a href="https://pro.porch.com/dallas-tx/electricians/heritage-cabling-commercial-low-voltage-dallas-tx-/pp" target="_blank" class="citation-link">Porch</a>
+    <a href="https://www.bizcommunity.com/Company/HeritageCablingCommercialLowVoltageDallasTX" target="_blank" class="citation-link">BizCommunity</a>
+    <a href="https://www.cybo.com/US-img/heritage-cabling-commercial-low-voltage" target="_blank" class="citation-link">Cybo</a>
+    <a href="https://www.openstreetmap.org/user/Heritage%20Cabling%20Commercial%20Low%20Voltage%20Dallas%20TX" target="_blank" class="citation-link">OpenStreetMap</a>
+    <a href="https://1businessworld.com/company/heritage-cabling-commercial-low-voltage-dallas-tx/" target="_blank" class="citation-link">1BusinessWorld</a>
+    <a href="https://www.callupcontact.com/b/businessprofile/Heritage_Cabling_Commercial_Low_Voltage_Dallas_TX/9626213" target="_blank" class="citation-link">CallUpContact</a>
+  </div>
+</section>
+
+<section class="section blogs">
+  <div class="blogs-container">
+    <h2>Fresh Insights on Cabling and Fiber</h2>
+    <p class="blogs-description">Our technical blog provides valuable insights into structured cabling best practices, fiber optic installation techniques, and low voltage system design for commercial applications. These articles cover essential topics like cable length limitations, fiber types comparison, and infrastructure components that affect network performance. Written by our experienced Dallas cabling technicians, this content helps business owners and IT managers make informed decisions about their network infrastructure investments.</p>
+    
+    <div class="blogs-grid">
+      <div class="blog-card">
+        <h3>Is Fiber Optic Better Than Cable?</h3>
+        <p>Compare fiber vs copper cabling for speed, signal reliability, and performance in modern network setups.</p>
+        <a href="https://heritagecabling.com/is-fiber-optic-better-than-cable/" class="blog-link">Read More</a>
+      </div>
+      
+      <div class="blog-card">
+        <h3>What Are the 6 Components of Structured Cabling?</h3>
+        <p>Understand the main components that make up a structured cabling system for efficient connectivity.</p>
+        <a href="https://heritagecabling.com/what-are-the-6-components-of-structured-cabling/" class="blog-link">Read More</a>
+      </div>
+      
+      <div class="blog-card">
+        <h3>Underground Fiber Optic Cable</h3>
+        <p>Explore installation methods, conduit systems, and best practices for underground fiber cabling.</p>
+        <a href="https://heritagecabling.com/underground-fiber-optic-cable/" class="blog-link">Read More</a>
+      </div>
+      
+      <div class="blog-card">
+        <h3>Cat 6 Cable Length Limit</h3>
+        <p>Learn about optimal Cat6 cable lengths and how to maintain network performance and compliance.</p>
+        <a href="https://heritagecabling.com/cat-6-cable-length-limit/" class="blog-link">Read More</a>
+      </div>
+      
+      <div class="blog-card">
+        <h3>Uses of Fiber Optics</h3>
+        <p>Discover how fiber optics improve connectivity in data centers, offices, and large commercial spaces.</p>
+        <a href="https://heritagecabling.com/uses-of-fiber-optics/" class="blog-link">Read More</a>
+      </div>
+      
+      <div class="blog-card">
+        <h3>Different Types of Fiber Optic Cables Explained</h3>
+        <p>A guide to the types of fiber optic cables used in modern infrastructure and their best use cases.</p>
+        <a href="https://heritagecabling.com/different-types-fiber-optic-cables-explained/" class="blog-link">Read More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section contact">
+  <div class="contact-container">
+    <h2>Contact Our Dallas Cabling Experts</h2>
+    <p class="contact-description">Contact Heritage Cabling today for professional structured cabling and low voltage solutions throughout the Dallas-Fort Worth metroplex. Our experienced technicians are ready to discuss your specific network infrastructure needs, provide detailed project estimates, and schedule professional installation services. We serve commercial clients across various industries including office buildings, healthcare facilities, educational institutions, and data centers. Reach out via phone, email, or through our online contact form to schedule a consultation and discover how our reliable cabling services can enhance your business connectivity and network performance.</p>
+    
+    <div class="contact-divider"></div>
+    
+    <div class="contact-info">
+      <h3>Heritage Cabling Commercial Low Voltage</h3>
+      <p>4033 W Lawther DR, Dallas, TX 75214</p>
+      <p>Phone: <a href="tel:+16235058375">(623) 505-8375</a></p>
+      <p>Email: <a href="mailto:john@heritagecabling.com">john@heritagecabling.com</a></p>
+      <p>Website: <a href="https://heritagecabling.com">heritagecabling.com</a></p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-container">
+    <a href="https://heritagecabling.com/" target="_blank">
+      <img src="https://heritagecabling.com/wp-content/uploads/2025/02/Logo-300x300.png" alt="Heritage Cabling Logo">
+    </a>
+    <div class="footer-contact">
+      <p><strong>Heritage Cabling Commercial Low Voltage</strong></p>
+      <p>4033 W Lawther DR, Dallas, TX 75214</p>
+      <p>Phone: <a href="tel:+16235058375">(623) 505-8375</a></p>
+      <p>Email: <a href="mailto:john@heritagecabling.com">john@heritagecabling.com</a></p>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>&copy; 2025 Heritage Cabling Commercial Low Voltage. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
